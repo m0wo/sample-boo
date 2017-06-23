@@ -1,0 +1,62 @@
+a:hover {
+ cursor:pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.log-button {
+  padding-right: 20px;
+}
+
+.hero-image {
+    background: url('http://res.cloudinary.com/dnytkcx1g/image/upload/v1499101640/boom-bap_ii8zwx.jpg');
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+    height: 400px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
